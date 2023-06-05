@@ -14,7 +14,7 @@ Author URL: http://w3layouts.com
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
-  --bs-pink: #d63384;
+  --bs-pink: #e2a8ff;
   --bs-red: #dc3545;
   --bs-orange: #fd7e14;
   --bs-yellow: #ffc107;
@@ -11782,7 +11782,7 @@ fieldset:disabled .btn {
 
 /* css style */
 :root {
-  --primary-color: #F54748;
+  --primary-color: #8f68a2;
   --secondary-color: #f48924;
   --font-color: #363636;
   --bg-color: #fff;
@@ -22814,7 +22814,7 @@ h3.title-style span {
   align-content: center;
   transform: scale(0);
   transition: .5s;
-  background-color: rgb(245 71 72 / 80%);
+  background-color: rgb(226 168 255 / 80%);
   padding: 30px;
   border-radius: var(--border-radius);
 }
@@ -25075,6 +25075,14 @@ h5.texti {
     padding: 0.5rem;
     font-size: 15px;
   }
+}
+
+.logo{
+  max-width: 14%;
+}
+
+.logo-footer{
+  max-width: 55%;
 }
 
 /* //shortcodes page */
