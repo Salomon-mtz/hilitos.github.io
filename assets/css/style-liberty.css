@@ -11783,7 +11783,7 @@ fieldset:disabled .btn {
 /* css style */
 :root {
   --primary-color: #8f68a2;
-  --secondary-color: #f48924;
+  --secondary-color: #b66584;
   --font-color: #363636;
   --bg-color: #fff;
   --heading-color: #060606;
@@ -11922,7 +11922,7 @@ p {
   padding: 0;
   font-size: 16px;
   line-height: 28px;
-  color: var(--font-color);
+
   letter-spacing: .2px;
 }
 
@@ -18844,7 +18844,9 @@ div#small-dialog iframe {
 .navbar-expand-lg .navbar-nav .nav-link.show,
 .navbar-expand-lg .navbar-nav .nav-link.active,
 .navbar-expand-lg .navbar-nav .nav-link:hover {
-  color: var(--primary-color)
+  color: var(--secondary-color);
+  font-weight: 700;
+  
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -23002,6 +23004,7 @@ a.blog-image .iconic-plus i {
   box-shadow: var(--box-shadow);
   position: relative;
   background-color: var(--bg-color);
+  height: 350px;
 }
 
 .box-wrap:hover {
@@ -23555,7 +23558,7 @@ h4.inner-text-title {
   bottom: 0;
   right: 0;
   margin: 0;
-  background-color: rgb(245 71 72 / 80%);
+  background-color: rgb(226 168 255 / 80%);
   opacity: 0;
   transition: all 0.3s;
 }
